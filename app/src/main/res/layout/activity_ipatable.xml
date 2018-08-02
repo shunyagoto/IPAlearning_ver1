@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agoto.IPAlearning.IPAtableActivity">
+
+    <Button
+        android:id="@+id/haikiryu"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onHaikiryuButtonTapped"
+        android:text="子音（肺気流）"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/boin"
+        app:layout_constraintEnd_toStartOf="@+id/hihaikiryu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hihaikiryu"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onHihaikiryuButtonTapped"
+        android:text="子音（非肺気流）"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/other"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/boin"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="onBoinButtonTapped"
+        android:text="母音"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/other"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/other"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:onClick="onOtherButtonTapped"
+        android:text="その他の記号"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
