@@ -18,7 +18,7 @@
         android:layout_marginTop="8dp"
         android:onClick="onHaikiryuButtonTapped"
         android:text="子音（肺気流）"
-        android:textSize="30sp"
+        android:textSize="42sp"
         app:layout_constraintBottom_toTopOf="@+id/boin"
         app:layout_constraintEnd_toStartOf="@+id/hihaikiryu"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
         android:layout_marginTop="8dp"
         android:onClick="onHihaikiryuButtonTapped"
         android:text="子音（非肺気流）"
-        android:textSize="30sp"
+        android:textSize="42sp"
         app:layout_constraintBottom_toTopOf="@+id/other"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -51,7 +51,7 @@
         android:layout_marginStart="8dp"
         android:onClick="onBoinButtonTapped"
         android:text="母音"
-        android:textSize="30sp"
+        android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/other"
         app:layout_constraintStart_toStartOf="parent" />
@@ -65,7 +65,7 @@
         android:layout_marginRight="80dp"
         android:onClick="onOtherButtonTapped"
         android:text="その他の記号"
-        android:textSize="30sp"
+        android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>

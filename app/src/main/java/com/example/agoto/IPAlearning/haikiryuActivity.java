@@ -817,13 +817,13 @@ public class haikiryuActivity extends AppCompatActivity{
 
     public void ontail_dButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.tail_d);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.tail_d);
         voicestart(mMediaPlayer);
     }
 
     public void oncButtonTapped(View view) {
         flag = true;
-        mMediaPlayer = MediaPlayer.create(this, R.raw.c);
+        //mMediaPlayer = MediaPlayer.create(this, R.raw.c);
         voicestart(mMediaPlayer);
     }
 
@@ -835,19 +835,19 @@ public class haikiryuActivity extends AppCompatActivity{
 
     public void onkButtonTapped(View view) {
         flag = true;
-        mMediaPlayer = MediaPlayer.create(this, R.raw.k);
+        //mMediaPlayer = MediaPlayer.create(this, R.raw.k);
         voicestart(mMediaPlayer);
     }
 
     public void ongButtonTapped(View view) {
         flag = true;
-        mMediaPlayer = MediaPlayer.create(this, R.raw.g);
+        //mMediaPlayer = MediaPlayer.create(this, R.raw.g);
         voicestart(mMediaPlayer);
     }
 
     public void onqButtonTapped(View view) {
         flag = true;
-        mMediaPlayer = MediaPlayer.create(this, R.raw.q);
+        //mMediaPlayer = MediaPlayer.create(this, R.raw.q);
         voicestart(mMediaPlayer);
     }
 
@@ -859,43 +859,43 @@ public class haikiryuActivity extends AppCompatActivity{
 
     public void onquestionButtonTapped(View view) {
         flag = true;
-        mMediaPlayer = MediaPlayer.create(this, R.raw.question);
+        //mMediaPlayer = MediaPlayer.create(this, R.raw.question);
         voicestart(mMediaPlayer);
     }
 
     public void onmButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.m);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.m);
         voicestart(mMediaPlayer);
     }
 
     public void onhook_mButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hook_m);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hook_m);
         voicestart(mMediaPlayer);
     }
 
     public void onnButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.n);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.n);
         voicestart(mMediaPlayer);
     }
 
     public void onrighthook_nButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.righthook_n);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.righthook_n);
         voicestart(mMediaPlayer);
     }
 
     public void onlefthook_nButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.lefthook_n);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.lefthook_n);
         voicestart(mMediaPlayer);
     }
 
     public void onrighthung_nButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.righthung_n);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.righthung_n);
         voicestart(mMediaPlayer);
     }
 
@@ -907,236 +907,236 @@ public class haikiryuActivity extends AppCompatActivity{
 
     public void onBButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.B);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_b);
         voicestart(mMediaPlayer);
     }
 
     public void onrButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.r);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.small_r);
         voicestart(mMediaPlayer);
     }
 
     public void onRButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.R;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_r);
         voicestart(mMediaPlayer);
     }
 
 
     public void onflap_vButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.flap_v);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.flap_v);
         voicestart(mMediaPlayer);
     }
 
     public void onflap_rButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.flap_r);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.flap_r);
         voicestart(mMediaPlayer);
     }
 
     public void onhook_rButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hook_r);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hook_r);
         voicestart(mMediaPlayer);
     }
 
     public void onphiButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.phi);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.phi);
         voicestart(mMediaPlayer);
     }
 
     public void onbetaButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.beta);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.beta);
         voicestart(mMediaPlayer);
     }
 
     public void onfButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.f);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.f);
         voicestart(mMediaPlayer);
     }
 
     public void onvButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.v);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.v);
         voicestart(mMediaPlayer);
     }
 
     public void onthetaButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.theta);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.theta);
         voicestart(mMediaPlayer);
     }
 
     public void onthButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.th);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.th);
         voicestart(mMediaPlayer);
     }
 
     public void onsButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.s);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.s);
         voicestart(mMediaPlayer);
     }
 
     public void onzButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.z);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.z);
         voicestart(mMediaPlayer);
     }
 
     public void oneshButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.esh);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.esh);
         voicestart(mMediaPlayer);
     }
 
     public void onezhButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.ezh);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.ezh);
         voicestart(mMediaPlayer);
     }
 
     public void onhook_sButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hook_s);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hook_s);
         voicestart(mMediaPlayer);
     }
 
     public void onhook_zButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hook_z);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hook_z);
         voicestart(mMediaPlayer);
     }
 
     public void oncedilla_cButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.cedilla_c);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.cedilla_c);
         voicestart(mMediaPlayer);
     }
 
     public void onrounded_jButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.rounded_j);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.rounded_j);
         voicestart(mMediaPlayer);
     }
 
     public void onxButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.x);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.x);
         voicestart(mMediaPlayer);
     }
 
     public void onrounded_yButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.rounded_y);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.rounded_y);
         voicestart(mMediaPlayer);
     }
 
     public void onXButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.X);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_x);
         voicestart(mMediaPlayer);
     }
 
     public void oninvert_RButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.invert_R);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_capital_r);
         voicestart(mMediaPlayer);
     }
 
     public void onDiracButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.Dirac);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.dirac);
         voicestart(mMediaPlayer);
     }
 
     public void onmirror_questionButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.mirror_question);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.mirror_question);
         voicestart(mMediaPlayer);
     }
 
     public void onhButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.h);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.h);
         voicestart(mMediaPlayer);
     }
 
     public void onhanged_hButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hanged_h);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hanged_h);
         voicestart(mMediaPlayer);
     }
 
     public void onhook_vButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hook_v);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hook_v);
         voicestart(mMediaPlayer);
     }
 
     public void oninvert_rButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.invert_r);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_small_r);
         voicestart(mMediaPlayer);
     }
 
     public void oninverthook_rButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.inverthook_r);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.inverthook_r);
         voicestart(mMediaPlayer);
     }
 
     public void onjButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.j);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.j);
         voicestart(mMediaPlayer);
     }
 
     public void oninvert_mButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.invert_m);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_m);
         voicestart(mMediaPlayer);
     }
 
     public void onround_iButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.round_i);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.round_i);
         voicestart(mMediaPlayer);
     }
 
     public void onI3ButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.I3);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.i3);
         voicestart(mMediaPlayer);
     }
 
     public void onlButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.l);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.l);
         voicestart(mMediaPlayer);
     }
 
     public void onhook_lButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.hook_l);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.hook_l);
         voicestart(mMediaPlayer);
     }
 
     public void oninvert_yButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.invert_y);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_y);
         voicestart(mMediaPlayer);
     }
 
     public void onLButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.L);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_l);
         voicestart(mMediaPlayer);
     }
 

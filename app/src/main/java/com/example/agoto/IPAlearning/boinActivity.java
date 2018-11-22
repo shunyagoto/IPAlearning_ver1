@@ -83,7 +83,8 @@ public class boinActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boin);
-
+    }
+    public void main() {
         //画面構成要素のID取得
         view =(ImageView) findViewById(R.id.boin);
 
@@ -148,25 +149,25 @@ public class boinActivity extends AppCompatActivity {
             switch (event.getAction()) {
                 //画面にタッチしたとき
                 case MotionEvent.ACTION_DOWN:
-                        //x,yセット
-                        currentX = view.getLeft();//画像の左側の辺の座標（x座標）
-                        currentY = view.getTop();//画像の側の辺の座標（y座標）
+                    //x,yセット
+                    currentX = view.getLeft();//画像の左側の辺の座標（x座標）
+                    currentY = view.getTop();//画像の側の辺の座標（y座標）
                     for (int number = 0; number < bList.length; number++) {   //すべてのボタンに対して
                         currentButtonX[number]=bList[number].getLeft(); //ボタンのx座標
                         currentButtonY[number]=bList[number].getTop(); //ボタンのy座標
                         currentWidth[number]=bList[number].getWidth(); //ボタンの幅
                         currentHeight[number]=bList[number].getHeight(); //ボタンの高さ
                     }
-                        offsetX = touching_x;
-                        offsetY = touching_y;
+                    offsetX = touching_x;
+                    offsetY = touching_y;
                     break;
                 //画面から指を離さずにスライドしたとき
                 case MotionEvent.ACTION_MOVE:
-                        int diffX = offsetX - touching_x;//指の移動した分のx距離
-                        int diffY = offsetY - touching_y;//指の移動した分のy距離
+                    int diffX = offsetX - touching_x;//指の移動した分のx距離
+                    int diffY = offsetY - touching_y;//指の移動した分のy距離
 
-                        currentX -= diffX;//指を移動した分だけ画像のx座標を移動
-                        currentY -= diffY;//指を移動した分だけ画像のy座標を移動
+                    currentX -= diffX;//指を移動した分だけ画像のx座標を移動
+                    currentY -= diffY;//指を移動した分だけ画像のy座標を移動
                     //画像の移動
                     view.layout(currentX, currentY, currentX + view.getWidth(),
                             currentY + view.getHeight());
@@ -178,8 +179,8 @@ public class boinActivity extends AppCompatActivity {
                         bList[number].layout(currentButtonX[number], currentButtonY[number],currentButtonX[number] + currentWidth[number],
                                 currentButtonY[number] + currentHeight[number]);
                     }
-                        offsetX = touching_x;
-                        offsetY = touching_y;
+                    offsetX = touching_x;
+                    offsetY = touching_y;
 
                     break;
                 //画面から指を離したとき
@@ -217,7 +218,169 @@ public class boinActivity extends AppCompatActivity {
     //音声再生処理開始
     public void oniButtonTapped(View view) {
         flag = true;
-        //mMediaPlayer = MediaPlayer.create(this, R.raw.i);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.i);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onyButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.y);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onBisectiButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.bisect_i);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onBisectuButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.bisect_u);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onInvertmButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_m);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onuButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.u);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onIButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_i);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onYButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_y);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onLatinUpsilonButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.latin_upsilon);
+        voicestart(mMediaPlayer);
+    }
+
+    public void oneButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.e);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onSlashedoButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.slashed_o);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onMirroreButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.mirror_e);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onBisectoButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.bisect_o);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onGammaButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.gamma);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onoButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.o);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onInverteButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_e);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onLikelyEpsilonButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.likely_epsilon);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onoeButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.oe);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onMirrorEpsilonButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.mirror_epsilon);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onLandscapeHeartButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.landscape_heart);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onInvertvButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_v);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onMirrorcButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.mirror_c);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onaeButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.ae);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onInvertaButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_a);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onaButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.a);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onCapitaloeButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.capital_oe);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onItalicaButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.italic_a);
+        voicestart(mMediaPlayer);
+    }
+
+    public void onInvertItalicaButtonTapped(View view) {
+        flag = true;
+        mMediaPlayer = MediaPlayer.create(this, R.raw.invert_italic_a);
         voicestart(mMediaPlayer);
     }
 

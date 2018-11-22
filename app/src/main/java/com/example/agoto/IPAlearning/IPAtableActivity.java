@@ -7,6 +7,8 @@ import android.view.View;
 
 public class IPAtableActivity extends AppCompatActivity {
 
+    //Date starttime = new Date();//バックグラウンド復帰時刻のCalenderクラスの取得
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,4 +34,17 @@ public class IPAtableActivity extends AppCompatActivity {
         Intent intent = new Intent(this, otherActivity.class);
         startActivity(intent);
     }
+
+
+ /*   public void onResume() {//バックグラウンド復帰時処理
+        super.onResume();
+        starttime = new Date();//バックグラウンド復帰時刻のCalenderクラスの取得
+    }
+
+    public void onPause() {//バックグラウンド移動時処理
+        super.onPause();
+        Date fintime = new Date();//バックグラウンド移動時刻のCalenderクラスの取得
+        MainActivity mainactivity = new MainActivity();
+        mainactivity.CSVFileWriter(starttime,fintime);
+    }*/
 }
